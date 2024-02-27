@@ -33,3 +33,28 @@ This MATLAB script performs preprocessing and feature calculation tasks on ECG (
    - Stores the calculated features in separate cell arrays for each participant.
 
 This script provides a comprehensive framework for preprocessing physiological data and extracting meaningful features for further analysis. It leverages MATLAB's signal processing capabilities to ensure accurate and reliable results.
+
+# Setup
+
+## Hardware Requirements
+This code requires only a standard computer with enough RAM to support the in-memory operations. 
+
+## Software Requirements
+
+### Matlab Dependencies
+We recommend using Matlab R2023a+ to run the scripts. 
+
+**MATLAB Toolboxes**: The following MATLAB Toolboxes need to be installed:
+  - Signal Processing Toolbox
+  - Wavelet Toolbox (for Wavelet analysis)
+  - Statistics and Machine Learning Toolbox
+
+# Files
+
+  - Classification_Preparation.m
+  - Feature_Ranking_Method.m
+  - Preprocessing_and_Feature_Extraction.m
+
+
+
+
