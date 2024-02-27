@@ -10,7 +10,6 @@ This study innovatively assesses anxiety disorders using wearable devices, speci
 The repository hosts the source code for the research presented in the master thesis titled "Towards instantaneous detection of anxiety with ECG and RSP data." It comprises four primary codes, 'Data Preprocessing with Feature extraction', 'Feature Ranking Method', a code to prepare the data for classification called 'Classification Preparation' and a 'Classification Analysis' in addition to various examples demonstrating their application. The 'Data Preprocessing with Feature extraction' specifically developed for the purposes of this study, offers a possibility for the user to filter the data with a suggested filter or by building an own, furthermore it segments the data into windows and extracts 58 features from the ECG or Respiratory data. 
 
 # Data Preprocessing and Feature Extraction
-# ECG and RSP Data Preprocessing and Feature Calculation
 
 This MATLAB script performs preprocessing and feature calculation tasks on ECG (Electrocardiogram) and RSP (Respiration) data. The script is designed to accomplish the following tasks:
 
@@ -26,12 +25,11 @@ This MATLAB script performs preprocessing and feature calculation tasks on ECG (
    - Rearranges the filtered data into separate cell arrays for ECG and RSP signals.
    - Prepares the data for sliding window analysis.
 
-4. **Sliding Window Analysis**:
-   - Performs sliding window analysis to calculate HRV (Heart Rate Variability) and RRV (Respiratory Rate Variability) metrics.
-   - Analyzes each window of data to extract relevant features.
+4. **Segmentation**:
+   - Performs segmentation to extract windows of the provided data.
 
 5. **Feature Calculation**:
-   - Calculates various features including mean heart rate, SDNN (Standard Deviation of NN intervals), breathing rate, RMSSD (Root Mean Square of Successive Differences), envelope features, Hilbert Transform features, and Wavelet Transform features.
+   - Calculates various features including Heart Rate Variability-, Respiratory Rate Variability-,Frequency Domain-, Hilbert Transform- and Wavelet Transform features.
    - Stores the calculated features in separate cell arrays for each participant.
 
 This script provides a comprehensive framework for preprocessing physiological data and extracting meaningful features for further analysis. It leverages MATLAB's signal processing capabilities to ensure accurate and reliable results.
