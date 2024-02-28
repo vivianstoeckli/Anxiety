@@ -51,9 +51,15 @@ We recommend using Matlab R2023a+ to run the scripts.
 
 # Files
 
-  - Classification_Preparation.m
-  - Feature_Ranking_Method.m
-  - Preprocessing_and_Feature_Extraction.m
+  - Classification_Preparation.m: This file builds a matrix to start the classification process. It is optimized for using the classification learner app in MATLAB.
+  - Feature_Ranking_Method.m: This file uses a random forest algorithm to rank features based on the input matrix. The number of trees can be chosen by the user
+  - Preprocessing_and_Feature_Extraction.m: This file preprocesses the raw ECG and RSP data and segments it. Furthermore it calculates 58 features for each window and participant.
+
+# Dataset
+In the thesis we used the dataset provided by Elgendi et al. The Dataset can be downloaded here:  https://figshare.com/articles/dataset/Anxiety_Dataset_2022/19875217
+
+# Contact
+If you have any questions, please feel free to contact us though email: Vivian Stöckli (vivian.stoeckli@gmail.com) or Mohamed Elgendi (moe.elgendi@hest.ethz.ch)
 
 
 
