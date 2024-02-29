@@ -3,7 +3,22 @@ This repository consists of a algorithm used to calculate ML-features to classif
 Additionally it consists of 2 functions used in said algorithm.
 
 # Abstract:
-This study innovatively assesses anxiety disorders using wearable devices, specifically exploring Electrocardiography (ECG) and Respiration Signal (RSP). Novel features derived from Hilbert and Wavelet transforms are introduced to enhance anxiety detection. Data preprocessing involves signal segmentation, categorization, and the application of a sliding window technique. Heart Rate Variability (HRV) and Respiration Rate Variability (RRV) are extracted alongside features from the Hilbert and Wavelet transforms, never previously employed for anxiety classification. The dataset is divided into training (80\%) and test (20\%) subsets, and feature selection is conducted through ANOVA. Machine learning models are trained, yielding remarkable results. The ensemble model (Subspace k-nearest neighbors (KNN)) achieves 99.8\% accuracy, support vector machine at 99.6\%, KNN at 99.3\% and the Neural Network at 99.0\% using the complete feature set. Additionally, a random forest ranking method is applied to reduce feature dimensionality and computing time, resulting in an accuracy of 0.999 and a Matthews correlation coefficient of 0.997 with a selected set of 8 new features. These outcomes highlight the effectiveness of the introduced features from Hilbert and Wavelet transforms in enhancing anxiety detection, providing both accuracy and computational efficiency.
+
+This thesis innovatively assesses anxiety disorders using wearable devices, specifically exploring
+Electrocardiography (ECG) and Respiration Signal (RSP). Novel features derived from hilbert and
+wavelet transforms are introduced to enhance anxiety detection. Data preprocessing involves
+signal segmentation, categorization, and the application of a sliding window technique. Heart Rate
+Variability (HRV) and Respiration Rate Variability (RRV) are extracted alongside features from the
+hilbert and wavelet transforms, never previously employed for anxiety classification. The dataset
+is divided into training (80%) and test (20%) subsets, and feature selection is conducted through
+ANOVA. Machine learning models are trained, yielding remarkable results. The ensemble model
+(Subspace k-nearest neighbors (KNN)) achieves scores of 0.998 accuracy, support vector machine
+at 0.996, KNN at 0.993 and the Neural Network at 0.990 using the complete feature set. Additionally,
+a random forest ranking method is applied to reduce feature dimensionality and computing time,
+resulting in an accuracy of 0.999 and a Matthews correlation coefficient of 0.995 with a selected set
+of 8 new features extracted all from the hilbert transformed ECG or RSP signal. These outcomes
+highlight the effectiveness of the introduced features from the hilbert transform in enhancing
+anxiety detection, providing both accuracy and computational efficiency
 <img width="512" alt="New Model_step1_2" src="https://github.com/vivianstoeckli/Anxiety/assets/117519298/889f5ece-5eb0-4b38-afdc-7ac51ee3fc2c">
 
 # Code Description
