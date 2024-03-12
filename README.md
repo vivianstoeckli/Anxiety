@@ -89,6 +89,9 @@ In the thesis we used the dataset provided by Elgendi et al. The Dataset can be 
 # Contact
 If you have any questions, please feel free to contact us though email: Vivian Stöckli (vivian.stoeckli@gmail.com) or Mohamed Elgendi (moe.elgendi@hest.ethz.ch)
 
+# Additional Material
+: File with Classification Analysis of each Participant.
+
 
 
 
