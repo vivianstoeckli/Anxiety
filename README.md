@@ -86,11 +86,13 @@ This script provides a comprehensive framework for preprocessing physiological d
 # Dataset
 In the thesis we used the dataset provided by Elgendi et al. The Dataset can be downloaded here:  https://figshare.com/articles/dataset/Anxiety_Dataset_2022/19875217
 
+# Additional Material
+Classification Analysis all Participants.pdf: File with Classification Analysis of each Participant.
+
 # Contact
 If you have any questions, please feel free to contact us though email: Vivian Stöckli (vivian.stoeckli@gmail.com) or Mohamed Elgendi (moe.elgendi@hest.ethz.ch)
 
-# Additional Material
-: File with Classification Analysis of each Participant.
+
 
 
 
